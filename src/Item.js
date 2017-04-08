@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 require('rc-slider/assets/index.css')
 
-const Sound = require('react-sound')
+import Sound from './Sound'
 const Slider = require('rc-slider')
 
 class Item extends Component {
@@ -16,16 +16,8 @@ class Item extends Component {
     }
   }
 
-  onItemClick = () => {
+  onItemTap = () => {
     this.setState({play: !this.state.play})
-  }
-
-  handleSongFinishedPlaying = () => {
-    this.setState({position: 0})
-  }
-
-  onVolumeChange = (volume) => {
-    this.setState({volume})
   }
 
   render() {
@@ -35,16 +27,14 @@ class Item extends Component {
     const style = Object.assign({}, background, { height: "90%", cursor: "pointer"})
 
     return <div>
-    <div style={style} onClick={this.onItemClick} className="item">
+    <div style={style} onTouchTap={this.onItemTap} className="item">
      {
-      play ? <Sound
+      <Sound
         url={audio}
-        playStatus={Sound.status.PLAYING}
+        playStatus={play ? Sound.status.PLAYING : Sound.status.PAUSED}
         volume={volume * 5}
         playFromPosition={position}
-        onLoading={this.handleSongLoading}
-        onPlaying={this.handleSongPlaying}
-        onFinishedPlaying={this.handleSongFinishedPlaying} /> : ""
+        onFinishedPlaying={() => this.setState({position: 0})} />
      }
     </div> 
     {
@@ -53,7 +43,7 @@ class Item extends Component {
         max={20} 
         value={volume} 
         style={{width: "80%", margin: "0 auto"}} 
-        onChange={this.onVolumeChange} /> : ""
+        onChange={() => this.setState({volume})} /> : ""
     }
     </div>
   }

@@ -2188,7 +2188,7 @@ fb-watchman@^1.8.0, fb-watchman@^1.9.0:
   dependencies:
     bser "1.0.2"
 
-fbjs@^0.8.1, fbjs@^0.8.4:
+fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6:
   version "0.8.12"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.12.tgz#10b5d92f76d45575fd63a217d4ea02bea2f8ed04"
   dependencies:
@@ -4648,9 +4648,6 @@ react-scripts@0.7.0:
   optionalDependencies:
     fsevents "1.0.14"
 
-react-sound:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/react-sound/-/react-sound-0.5.2.tgz#8514a44b1500feefca85ef87670dc65e26ea0720"
   dependencies:
     react ">=0.13.3 <16.0.0"
     soundmanager2 "^2.97.20150601-a"
@@ -5120,9 +5117,9 @@ sort-keys@^1.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
-soundmanager2@^2.97.20150601-a:
-  version "2.97.20150601"
-  resolved "https://registry.yarnpkg.com/soundmanager2/-/soundmanager2-2.97.20150601.tgz#673edacb9b52bbcfa57712c370b011f6983c6f36"
+soundmanager2:
+  version "2.97.20150601-a"
+  resolved "https://registry.yarnpkg.com/soundmanager2/-/soundmanager2-2.97.20150601-a.tgz#d1a2f61bb2cd38f7a7209fbf456de20e5eaef74f"
 
 source-list-map@^0.1.4, source-list-map@~0.1.7:
   version "0.1.8"
