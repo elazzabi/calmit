@@ -43,7 +43,7 @@ class Item extends Component {
         max={20} 
         value={volume} 
         style={{width: "80%", margin: "0 auto"}} 
-        onChange={() => this.setState({volume})} /> : ""
+        onChange={(volume) => this.setState({volume})} /> : ""
     }
     </div>
   }
