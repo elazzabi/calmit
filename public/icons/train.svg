@@ -1,0 +1,61 @@
+<svg width="200" height="200" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Train</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(345 -20)" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M -345 20L -145 20L -145 220L -345 220L -345 20Z" fill="#FFFFFF"/>
+</mask>
+<g id="Train" mask="url(#mask0_alpha)" figma:type="frame">
+<path d="M -345 20L -145 20L -145 220L -345 220L -345 20Z" fill="#FFFFFF"/>
+<g id="Group" figma:type="frame">
+<g id="Vector 2" figma:type="vector">
+<use xlink:href="#path0_stroke" transform="translate(-282 44.5)"/>
+</g>
+<g id="Vector 2" figma:type="vector">
+<use xlink:href="#path0_stroke" transform="translate(-205 44)"/>
+</g>
+<g id="Rectangle" figma:type="rounded-rectangle">
+<use xlink:href="#path1_fill" transform="translate(-299 55)" fill="#FFFFFF"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(-299 55)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(-299 55)"/>
+</g>
+</g>
+<g id="Rectangle" figma:type="rounded-rectangle">
+<use xlink:href="#path1_fill" transform="translate(-299 92)" fill="#FFFFFF"/>
+<mask id="mask2_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(-299 92)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(-299 92)"/>
+</g>
+</g>
+<g id="Rectangle" figma:type="rounded-rectangle">
+<use xlink:href="#path1_fill" transform="translate(-299 129)" fill="#FFFFFF"/>
+<mask id="mask3_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(-299 129)"/>
+</mask>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(-299 129)"/>
+</g>
+</g>
+<g id="Rectangle" figma:type="rounded-rectangle">
+<use xlink:href="#path1_fill" transform="translate(-299 166)" fill="#FFFFFF"/>
+<mask id="mask4_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(-299 166)"/>
+</mask>
+<g mask="url(#mask4_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(-299 166)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 1.5 0C 1.5 -0.828427 0.828427 -1.5 0 -1.5C -0.828427 -1.5 -1.5 -0.828427 -1.5 0L 1.5 0ZM -1.5 152.5C -1.5 153.328 -0.828427 154 0 154C 0.828427 154 1.5 153.328 1.5 152.5L -1.5 152.5ZM -1.5 0L -1.5 152.5L 1.5 152.5L 1.5 0L -1.5 0Z"/>
+<path id="path1_fill" d="M 0 8.5C 0 3.80558 3.80558 0 8.5 0L 99.5 0C 104.194 0 108 3.80558 108 8.5C 108 13.1944 104.194 17 99.5 17L 8.5 17C 3.80558 17 0 13.1944 0 8.5Z"/>
+<path id="path2_stroke_2x" d="M 8.5 3L 99.5 3L 99.5 -3L 8.5 -3L 8.5 3ZM 99.5 14L 8.5 14L 8.5 20L 99.5 20L 99.5 14ZM 8.5 -3C 2.14873 -3 -3 2.14873 -3 8.5L 3 8.5C 3 5.46243 5.46243 3 8.5 3L 8.5 -3ZM 99.5 3C 102.538 3 105 5.46243 105 8.5L 111 8.5C 111 2.14873 105.851 -3 99.5 -3L 99.5 3ZM 105 8.5C 105 11.5376 102.538 14 99.5 14L 99.5 20C 105.851 20 111 14.8513 111 8.5L 105 8.5ZM 8.5 14C 5.46243 14 3 11.5376 3 8.5L -3 8.5C -3 14.8513 2.14873 20 8.5 20L 8.5 14Z"/>
+</defs>
+</svg>

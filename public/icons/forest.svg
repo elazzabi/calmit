@@ -1,0 +1,31 @@
+<svg width="200" height="200" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Forest</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(133 -20)" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M -133 20L 67 20L 67 220L -133 220L -133 20Z" fill="#FFFFFF"/>
+</mask>
+<g id="Forest" mask="url(#mask0_alpha)" figma:type="frame">
+<path d="M -133 20L 67 20L 67 220L -133 220L -133 20Z" fill="#FFFFFF"/>
+<g id="Group" figma:type="frame">
+<g id="Vector 3" figma:type="vector">
+<use xlink:href="#path0_stroke" transform="translate(-33.1676 143)"/>
+</g>
+<g id="Union" figma:type="vector-operation">
+<use xlink:href="#path1_fill" transform="translate(-79 47)" fill="#FFFFFF"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(-79 47)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(-79 47)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 1.5 0C 1.5 -0.828427 0.828427 -1.5 0 -1.5C -0.828427 -1.5 -1.5 -0.828427 -1.5 0L 1.5 0ZM -1.5 50.5C -1.5 51.3284 -0.828427 52 0 52C 0.828427 52 1.5 51.3284 1.5 50.5L -1.5 50.5ZM -1.5 0L -1.5 50.5L 1.5 50.5L 1.5 0L -1.5 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 46.3324 0L 75.3442 50.25L 69.0146 50.25L 88.2676 87L 81.2246 87L 92.6647 107L 0 107L 11.4401 87L 3.39712 87L 22.6501 50.25L 17.3205 50.25L 46.3324 0Z"/>
+<path id="path2_stroke_2x" d="M 75.3442 50.25L 75.3442 53.25L 80.5404 53.25L 77.9423 48.75L 75.3442 50.25ZM 46.3324 0L 48.9304 -1.5L 46.3324 -6L 43.7343 -1.5L 46.3324 0ZM 69.0146 50.25L 69.0146 47.25L 64.0561 47.25L 66.3572 51.6422L 69.0146 50.25ZM 88.2676 87L 88.2676 90L 93.226 90L 90.925 85.6078L 88.2676 87ZM 81.2246 87L 81.2246 84L 76.0525 84L 78.6205 88.4895L 81.2246 87ZM 92.6647 107L 92.6647 110L 97.8368 110L 95.2688 105.51L 92.6647 107ZM 0 107L -2.60408 105.51L -5.17212 110L 0 110L 0 107ZM 11.4401 87L 14.0442 88.4895L 16.6122 84L 11.4401 84L 11.4401 87ZM 3.39712 87L 0.739713 85.6078L -1.56132 90L 3.39712 90L 3.39712 87ZM 22.6501 50.25L 25.3075 51.6422L 27.6086 47.25L 22.6501 47.25L 22.6501 50.25ZM 17.3205 50.25L 14.7224 48.75L 12.1244 53.25L 17.3205 53.25L 17.3205 50.25ZM 77.9423 48.75L 48.9304 -1.5L 43.7343 1.5L 72.7461 51.75L 77.9423 48.75ZM 69.0146 53.25L 75.3442 53.25L 75.3442 47.25L 69.0146 47.25L 69.0146 53.25ZM 90.925 85.6078L 71.672 48.8578L 66.3572 51.6422L 85.6102 88.3922L 90.925 85.6078ZM 81.2246 90L 88.2676 90L 88.2676 84L 81.2246 84L 81.2246 90ZM 78.6205 88.4895L 90.0606 108.49L 95.2688 105.51L 83.8287 85.5105L 78.6205 88.4895ZM 92.6647 104L 0 104L 0 110L 92.6647 110L 92.6647 104ZM 2.60408 108.49L 14.0442 88.4895L 8.836 85.5105L -2.60408 105.51L 2.60408 108.49ZM 3.39712 90L 11.4401 90L 11.4401 84L 3.39712 84L 3.39712 90ZM 19.9927 48.8578L 0.739713 85.6078L 6.05452 88.3922L 25.3075 51.6422L 19.9927 48.8578ZM 17.3205 53.25L 22.6501 53.25L 22.6501 47.25L 17.3205 47.25L 17.3205 53.25ZM 43.7343 -1.5L 14.7224 48.75L 19.9186 51.75L 48.9304 1.5L 43.7343 -1.5Z"/>
+</defs>
+</svg>

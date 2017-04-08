@@ -1,0 +1,24 @@
+<svg width="200" height="200" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Thunder</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(133 211)" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M -133 -211L 67 -211L 67 -11L -133 -11L -133 -211Z" fill="#FFFFFF"/>
+</mask>
+<g id="Thunder" mask="url(#mask0_alpha)" figma:type="frame">
+<path d="M -133 -211L 67 -211L 67 -11L -133 -11L -133 -211Z" fill="#FFFFFF"/>
+<g id="Vector" figma:type="vector">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-75 -185)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-75 -185)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 70.5L 16.5 0L 70 0L 49.5 51.5L 83 51.5L 16.5 148.5L 41.5 70.5L 0 70.5Z"/>
+<path id="path1_stroke_2x" d="M 16.5 0L 16.5 -3L 14.1211 -3L 13.5789 -0.683653L 16.5 0ZM 0 70.5L -2.92106 69.8163L -3.7832 73.5L 0 73.5L 0 70.5ZM 41.5 70.5L 44.3568 71.4157L 45.6119 67.5L 41.5 67.5L 41.5 70.5ZM 16.5 148.5L 13.6432 147.584L 18.9744 150.196L 16.5 148.5ZM 83 51.5L 85.4744 53.1963L 88.694 48.5L 83 48.5L 83 51.5ZM 49.5 51.5L 46.7127 50.3905L 45.0769 54.5L 49.5 54.5L 49.5 51.5ZM 70 0L 72.7873 1.1095L 74.4231 -3L 70 -3L 70 0ZM 13.5789 -0.683653L -2.92106 69.8163L 2.92106 71.1837L 19.4211 0.683653L 13.5789 -0.683653ZM 0 73.5L 41.5 73.5L 41.5 67.5L 0 67.5L 0 73.5ZM 38.6432 69.5843L 13.6432 147.584L 19.3568 149.416L 44.3568 71.4157L 38.6432 69.5843ZM 18.9744 150.196L 85.4744 53.1963L 80.5256 49.8037L 14.0256 146.804L 18.9744 150.196ZM 83 48.5L 49.5 48.5L 49.5 54.5L 83 54.5L 83 48.5ZM 52.2873 52.6095L 72.7873 1.1095L 67.2127 -1.1095L 46.7127 50.3905L 52.2873 52.6095ZM 70 -3L 16.5 -3L 16.5 3L 70 3L 70 -3Z"/>
+</defs>
+</svg>

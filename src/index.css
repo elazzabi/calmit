@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid > div {
+  width: 40vw;
+  height: 40vw;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  #root {
+    width: 80vw;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  #grid > div {
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  #grid > div {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  #grid > div {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  #root {
+    width: 50vw;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
